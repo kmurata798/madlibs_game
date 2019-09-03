@@ -1,6 +1,16 @@
+from colors import red, green, blue, yellow
+
+#Stretch 1
+wordlist = list()
+
 def madlibs():
-    wordlist = list()
     
+    """word = input("Type O for overview")
+
+    if word == 'r' or word == 'R'
+        for dList in wordlist:
+            print(dList)"""
+
     noun = input("Write a noun: ")
     wordlist.append(noun)
     
@@ -9,6 +19,9 @@ def madlibs():
 
     noun2 = input("Write another noun: ")
     wordlist.append(noun)
+
+    adverb = input("Write an adverb: ")
+    wordlist.append(adverb)
 
     adjective = input("Write a adjective: ")
     wordlist.append(adjective)
@@ -31,12 +44,10 @@ def madlibs():
     number = input("Write a number: ")
     wordlist.append(number)
 
-    if 
-
     
-    print("\nOnce there was a little {} that would always {} next of a {}.\nThe weather was {} so there was a party where everyone had to {} until the party was over".format(noun, verb, noun2, adjective, verb2))
-    print("There was all kinds of {} food at the party, but the {} was the most popular, everyone was eating that.".format(adjective2, food))
-    print("Right before the party ended, a {} came down from the ceiling and sounded like a {}.\nIt sat down and had a drink, and all of a sudden {} more of those things joined the party and everyone danced all night!".format(noun3, animal, number))
+    print("\nOnce there was a little {} that would always {} next of a {}.\nThe weather was {} so there was a party where everyone had to {} until the party was over".format(red(noun), green(verb), red(noun2), yellow(adjective), green(verb2)))
+    print("There was all kinds of {} food at the party, but the {} was the most popular, everyone was eating that.".format(yellow(adjective2), orange(food)))
+    print("Right before the party ended, a {} came down from the ceiling and sounded like a {}.\nIt sat down and had a drink, and all of a sudden {} more of those things joined the party and everyone danced all night!".format(red(noun3), blue(animal), pink(number)))
     
 
 madlibs()
