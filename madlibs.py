@@ -31,6 +31,8 @@ def madlibs():
     number = input("Write a number: ")
     wordlist.append(number)
 
+    if 
+
     
     print("\nOnce there was a little {} that would always {} next of a {}.\nThe weather was {} so there was a party where everyone had to {} until the party was over".format(noun, verb, noun2, adjective, verb2))
     print("There was all kinds of {} food at the party, but the {} was the most popular, everyone was eating that.".format(adjective2, food))
